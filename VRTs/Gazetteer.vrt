@@ -1,0 +1,8 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="50kgaz2011_new">
+        <SrcDataSource>/home/katia/OSOpenWorkingArea/Gazetteer/data/50kgaz2011_new.csv</SrcDataSource>
+	<GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:27700</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="EAST" y="NORTH"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>

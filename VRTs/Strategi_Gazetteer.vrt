@@ -1,0 +1,8 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="STRATEGI_2011_GAZETTEER_new">
+        <SrcDataSource>/home/katia/OSOpenWorkingArea/Strategi/gazetteer/STRATEGI_2011_GAZETTEER_new.csv</SrcDataSource>
+	<GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:27700</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="Easting" y="Northing"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
