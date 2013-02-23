@@ -76,7 +76,7 @@ class OSOpenLoader:
                         for root, dirs, files in os.walk(folder_path):
                             for name in files:
                                 if name.endswith(".shp"):
-                                    file_path=os.path.join(folder_path,root,name)
+                                    file_path=os.path.join(root, name)
                                     print "Processing: %s" % file_path
                                     if name in seen_files:
                                         appover = "append"
@@ -96,8 +96,8 @@ class OSOpenLoader:
                                     num_files += 1
 
                                 if name==csv_filename:
-                                    original_csv=os.path.join(folder_path,root,name)
-                                    new_csv=os.path.join(folder_path,root,name[:-4]+"_new.csv")
+                                    original_csv=os.path.join(root, name)
+                                    new_csv=os.path.join(root, name[:-4]+"_new.csv")
                                     if os.path.exists(original_csv):
                                         print "Editing %s and creating %s" % (original_csv,new_csv)
                                         header_string= header.split()
@@ -113,7 +113,7 @@ class OSOpenLoader:
                                     else:
                                         print "No correct CSV file found"
                                         sys.exit()
-                                    vrtfile_path=os.path.join(folder_path,root,vrt_filename)
+                                    vrtfile_path=os.path.join(root, vrt_filename)
                                     if os.path.exists(vrtfile_path):
                                         print "Loading csv data using %s" % vrtfile_path
                                         if requested_dataset=="Gazetteer" or "GAZETTEER" in name:
