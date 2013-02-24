@@ -1,8 +1,0 @@
-<OGRVRTDataSource>
-    <OGRVRTLayer name="OS_Locator2011_1_Open_new">
-        <SrcDataSource>/home/katia/OSOpenWorkingArea/OSLocator/OS_Locator2011_1_Open_new.csv</SrcDataSource>
-	<GeometryType>wkbPoint</GeometryType>
-        <LayerSRS>EPSG:27700</LayerSRS>
-        <GeometryField encoding="PointFromColumns" x="Centx" y="Centy"/>
-    </OGRVRTLayer>
-</OGRVRTDataSource>

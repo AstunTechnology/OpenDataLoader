@@ -1,0 +1,8 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="OS_Locator2012_2_OPEN_new">
+        <SrcDataSource>data/OSLocator/OS_Locator2012_2_OPEN_new.csv</SrcDataSource>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:27700</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="Centx" y="Centy"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
