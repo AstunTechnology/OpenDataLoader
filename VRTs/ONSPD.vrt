@@ -1,7 +1,7 @@
 <OGRVRTDataSource>
-    <OGRVRTLayer name="ONSPD_FEB_2011_UK_O_new">
-        <SrcDataSource>/home/katia/OSOpenWorkingArea/ONSPD/ONSPD_FEB_2011_UK_O_new.csv</SrcDataSource>
-	<GeometryType>wkbPoint</GeometryType>
+    <OGRVRTLayer name="ONSPD_FEB_2013_UK_O_new">
+        <SrcDataSource>data/ONSPD/ONSPD_FEB_2013_UK_O_new.csv</SrcDataSource>
+        <GeometryType>wkbPoint</GeometryType>
         <LayerSRS>EPSG:27700</LayerSRS>
         <GeometryField encoding="PointFromColumns" x="OSEAST1M" y="OSNRTH1M"/>
     </OGRVRTLayer>
